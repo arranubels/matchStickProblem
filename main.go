@@ -176,6 +176,11 @@ func main() {
 		true, true,
 		true,
 
+		false,
+		false, false,
+		false,
+		false, false,
+		false,
 	}
 	outf, err := os.Create(fmt.Sprintf("out-%d.gif", time.Now().Unix()))
 	if err != nil {
